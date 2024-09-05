@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>RoadRider </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/icon/favicon.ico" type="image/x-icon">
+
+    <!-- Web Fonts-->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Varela+Round">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+
+    <!-- Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/superfish-menu/css/superfish.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/slick-sider/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/slick-sider/slick-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/swiper-sider/dist/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/magnific-popup/dist/magnific-popup.min.css">
+
+    <!-- Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/shortcodes.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/style-selector.css">
+    <link id="style-main-color" rel="stylesheet" type="text/css" href="css/color/color1.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file://-->
+    <!--if lt IE 9
+    script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+    script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+    
+    -->
+  </head>
+  <body>
+    <div class="mv-site">
+      <header class="header mv-header-style-2 mv-wrap">
+        <div class="header-top">
+          <div class="container">
+            <div class="header-top-inner">
+              <div class="mv-col-wrapper">
+                <div class="mv-col-left header-contact">
+                  <ul class="mv-ul clearfix group-contact hidden-xs">
+                    <li class="item-button mv-icon-left-style-2"><span class="text"> <span class="icon"><i class="fa fa-clock-o"></i></span>suporte 24h</span></li>
+                    <li class="item-button mv-icon-left-style-2"><a href="tel:(+800)123456789" class="text"> <span class="icon"><i class="fa fa-phone"></i></span>Telefone: (41) 3627-5566</a></li>
+                  </ul>
+                  <ul class="mv-ul clearfix group-language">
+                    <li class="item-button dropdown mv-dropdown-style-1 item-currency">
+                      <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="mv-btn mv-btn-style-24"> <i class="fa fa-usd"></i>&nbsp; BRL<i class="icon fa fa-angle-down"></i></button>
+                      <div class="dropdown-menu pull-right">
+                        <div class="dropdown-menu-inner">
+                          <nav class="mv-menu-style-3">
+                            <ul>
+                              <li><a href="#"><i class="fa fa-eur"></i>&nbsp; USD</a></li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-button dropdown mv-dropdown-style-1 item-language">
+                      <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="mv-btn mv-btn-style-24"> <img src="images/icon/pngwing.com (1).png" alt="icon"/><span class="btn-text hidden-xs hidden-sm">&nbsp; Português</span><i class="icon fa fa-angle-down"></i></button>
+                      <div class="dropdown-menu pull-right">
+                        <div class="dropdown-menu-inner">
+                          <nav class="mv-menu-style-3">
+                            <ul>
+                              <li><a href="#"><img src="images/icon/pngwing.com (1).png" alt="icon"/>&nbsp; Brasil</a></li>
+                              <li><a href="#"><img src="images/icon/Flag_of_the_United_States (1).png" alt="icon"/>&nbsp; United States</a></li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- .header-contact-->
+
+                <div class="mv-col-right align-bottom header-account">
+                  <div class="mv-btn-group text-right">
+                    <div class="group-inner">
+                      <div class="item-button mv-btn dropdown mv-dropdown-style-1">
+                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="mv-btn mv-btn-style-12"><span class="btn-text hidden-xs hidden-sm">Minha Conta</span><i class="btn-icon fa fa-user hidden-md hidden-lg"></i><i class="icon fa fa-caret-down"></i></button>
+                        <div class="dropdown-menu pull-right">
+                          <div class="dropdown-menu-inner">
+                            <nav class="mv-menu-style-3">
+                              <ul>
+                                <li><a href="login.html"><i class="fa fa-sign-in mv-color-primary"></i>&nbsp;
+                                    Login</a></li>
+                                <li><a href="login.html"><i class="fa fa-pencil-square-o mv-color-primary"></i>&nbsp;
+                                    Cadastrar-se</a></li>
+                                <li><a href="wishlist.html">Lista de Desejos</a></li>
+                              </ul>
+                            </nav>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item-button mv-btn"><a href="checkout.html" class="item-button mv-btn mv-btn-style-12"> <i class="btn-icon fa fa-shopping-cart hidden-md hidden-lg"></i><span class="btn-text hidden-xs hidden-sm">checkout</span></a></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- .header-account-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .header-top-->
+
+        <div class="header-main-nav mv-fixed-enabled">
+          <div class="container">
+            <div class="container-inner">
+              <div class="header-toggle-off-canvas hidden-md hidden-lg">
+                <button type="button" class="mv-btn mv-btn-style-5 btn-off-canvas-toggle click-btn-off-canvas-left"><i class="icon fa fa-bars"></i></button>
+              </div>
+              <!-- .header-toggle-off-canvas-->
+
+              <div class="header-logo"><a href="home.html" title="RoadRider"><img src="images/demo/LOGO.png" alt="logo" class="logo-img img-default image-live-view"/><img src="images/logo/logo_2.png" alt="logo" class="logo-img img-scroll image-live-view"/></a></div>
+              <!-- .header-logo-->
+
+              <div class="main-nav-wrapper hidden-xs hidden-sm">
+                <nav class="main-nav">
+                  <ul class="nav sf-menu">
+                    <li class="mega-columns"><a href="home.html"><span class="menu-text">Home <i class="menu-icon fa fa-angle-down"></i></span></a>
+                      <ul class="row">
+                        <li class="col-xs-3 mega-col"><a href="home.html" class="mega-title"><span class="menu-text">Página Inicial</span></a>
+                          <ul class="mega-content">
+                            <li class="active"><a href="home.html">Home 1</a></li>
+                            <li><a href="home-2.html">Home 2</a></li>
+                            <li><a href="home-3.html">Home 3</a></li>
+                          </ul>
+                        </li>
+                        <li class="col-xs-3 mega-col"><a href="home.html" class="mega-title"><span class="menu-text">Homepage Demos</span></a>
+                          <ul class="mega-content">
+                            <li><a href="home-4.html">Home 4</a></li>
+                            <li><a href="home-5.html">Home 5</a></li>
+                          </ul>
+                        </li>
+                        <li class="col-xs-3 mega-col"><a href="home.html" class="mega-title"><span class="menu-text">Homepage Demos</span></a>
+                          <ul class="mega-content">
+                            <li><a href="home-lookbook-1.html">Home Lookbook 1</a></li>
+                            <li><a href="home-lookbook-2.html">Home Lookbook 2</a></li>
+                          </ul>
+                        </li>
+                        <li class="col-xs-3 mega-col"><a href="home.html" class="mega-title"><span class="menu-text">Homepage Demos</span></a>
+                          <ul class="mega-content">
+                            <li><a href="home-parallax.html">Home Parallax</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="#"><span class="menu-text">Produtos <i class="menu-icon fa fa-angle-down"></i></span></a>
+                      <ul>
+                        <li><a href="product-list.html">Product List</a></li>
+                        <li><a href="product-grid-2.html">Product Grid 2</a></li>
+                        <li><a href="product-grid-3.html">Product Grid 3</a></li>
+                        <li><a href="product-grid-3-no-sb.html">Product Grid 3 No Sidebar</a></li>
+                        <li><a href="product-grid-4-no-sb.html">Product Grid 4 No Sidebar</a></li>
+                        <li><a href="product-grid-5-fullwidth.html">Product Grid 5 Fullwidth</a></li>
+                        <li><a href="product-detail.html">Product Detail</a></li>
+                        <li><a href="product-detail-rated.html">Product Detail Rated</a></li>
+                        <li><a href="search.html">Search</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#"><span class="menu-text">Comprar <i class="menu-icon fa fa-angle-down"></i></span></a>
+                      <ul>
+                        <li><a href="cart.html">Carrinho</a></li>
+                        <li><a href="track-your-order.html">Acompanhe seu pedido</a></li>
+                        <li><a href="cart-empty.html">Carrinho Vazio</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#"><span class="menu-text">Blog <i class="menu-icon fa fa-angle-down"></i></span></a>
+                      <ul>
+                        <li><a href="blog-list.html">Blog List</a></li>
+                        <li><a href="blog-grid-2.html">Blog Grid 2</a></li>
+                        <li><a href="blog-grid-3-no-sb.html">Blog Grid 3 No Sidebar</a></li>
+                        <li><a href="blog-grid-3-mansory-no-sb.html">Blog Grid 3 Mansory No Sidebar</a></li>
+                        <li><a href="blog-detail.html">Blog Detail</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="about-us.html"><span class="menu-text">Sobre Nós</span></a></li>
+                    <li><a href="contact.html"><span class="menu-text">Contato</span></a></li>
+                    <li><a href="#"><span class="menu-text">Páginas <i class="menu-icon fa fa-angle-down"></i></span></a>
+                      <ul class="dropdown-left">
+                        <li><a href="forgot-password.html">Esqueci minha senha</a></li>
+                        <li><a href="shortcodes.html">Códigos de Acesso</a></li>
+                        <li><a href="faqs.html">Perguntas Frequentes</a></li>
+                        <li><a href="error-page.html">Página de Erro</a></li>
+                          <ul>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- .header-main-nav-->
+
+              <div class="header-right-button">
+                <div class="header-search">
+                  <div class="item-button">
+                    <button type="button" data-toggle="modal" data-target="#popupSearch" class="mv-btn mv-btn-style-10 btn-open-field-search"><i class="fa fa-search"></i></button>
+                    <button type="button" class="mv-btn mv-btn-style-10 btn-open-filter click-btn-off-canvas-right hidden-md hidden-lg"><i class="fa fa-filter mv-f-18"></i></button>
+                  </div>
+                </div>
+                <!-- .header-search-->
+
+                <div class="header-shop">
+                  <div class="item-button"><a href="wishlist.html" class="mv-btn mv-btn-style-11 btn-my-wishlist"><span class="btn-inner"><span class="icon fa fa-heart-o"></span><span class="number">8</span></span></a></div>
+
+                  <div class="item-button dropdown mv-dropdown-style-1 script-dropdown-1">
+                    <button type="button" class="mv-btn mv-btn-style-11 btn-dropdown btn-my-cart"><span class="btn-inner"><span class="icon fa fa-shopping-bag"></span><span class="number">3</span></span></button>
+                    <div class="dropdown-menu pull-right">
+                      <div class="dropdown-menu-inner">
+                        <div class="mv-block-style-39">
+                          <div class="block-39-header">You have <span class="mv-color-primary">3 items</span> in your shopping cart</div>
+                          <div class="block-39-list">
+                            <article class="item post">
+                              <div class="item-inner">
+                                <div class="mv-dp-table align-top">
+                                  <div class="mv-dp-table-cell block-39-thumb">
+                                    <div class="thumb-inner mv-lightbox-style-1"><a href="product-detail.html" title="Richa Rock Glove"><img src="images/demo/demo_80x100.png" alt="demo" class="block-39-thumb-img"/></a></div>
+                                  </div>
+                                  <div class="mv-dp-table-cell block-39-main">
+                                    <div class="block-39-main-inner">
+                                      <div class="block-39-title"><a href="product-detail.html" title="Richa Rock Glove" class="mv-overflow-ellipsis">Richa Rock Glove</a></div>
+                                      <div class="block-39-price"> 
+                                        <div class="new-price">$200,00</div>
+                                      </div>
+                                      <ul class="block-24-meta mv-ul">
+                                        <li class="meta-item mv-icon-left-style-3"><span class="text">Quanlity: 2</span></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <button type="button" title="Remove from Wishlist" class="mv-btn mv-btn-style-4 fa fa-close btn-delete-product"></button>
+                              </div>
+                            </article>
+                            <!-- .post-->
+
+                            <article class="item post">
+                              <div class="item-inner">
+                                <div class="mv-dp-table align-top">
+                                  <div class="mv-dp-table-cell block-39-thumb">
+                                    <div class="thumb-inner mv-lightbox-style-1"><a href="product-detail.html" title="Richa Rock Glove"><img src="images/demo/demo_80x100.png" alt="demo" class="block-39-thumb-img"/></a></div>
+                                  </div>
+                                  <div class="mv-dp-table-cell block-39-main">
+                                    <div class="block-39-main-inner">
+                                      <div class="block-39-title"><a href="product-detail.html" title="Richa Rock Glove" class="mv-overflow-ellipsis">Richa Rock Glove Richa Rock Glove</a></div>
+                                      <div class="block-39-price"> 
+                                        <div class="new-price">$200,00</div>
+                                      </div>
+                                      <ul class="block-24-meta mv-ul">
+                                        <li class="meta-item mv-icon-left-style-3"><span class="text">Quanlity: 2</span></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <button type="button" title="Remove from Wishlist" class="mv-btn mv-btn-style-4 fa fa-close btn-delete-product"></button>
+                              </div>
+                            </article>
+                            <!-- .post-->
+
+                            <article class="item post">
+                              <div class="item-inner">
+                                <div class="mv-dp-table align-top">
+                                  <div class="mv-dp-table-cell block-39-thumb">
+                                    <div class="thumb-inner mv-lightbox-style-1"><a href="product-detail.html" title="Richa Rock Glove"><img src="images/demo/demo_80x100.png" alt="demo" class="block-39-thumb-img"/></a></div>
+                                  </div>
+                                  <div class="mv-dp-table-cell block-39-main">
+                                    <div class="block-39-main-inner">
+                                      <div class="block-39-title"><a href="product-detail.html" title="Richa Rock Glove" class="mv-overflow-ellipsis">Richa Rock Glove</a></div>
+                                      <div class="block-39-price"> 
+                                        <div class="new-price">$200,00</div>
+                                      </div>
+                                      <ul class="block-24-meta mv-ul">
+                                        <li class="meta-item mv-icon-left-style-3"><span class="text">Quanlity: 2</span></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <button type="button" title="Remove from Wishlist" class="mv-btn mv-btn-style-4 fa fa-close btn-delete-product"></button>
+                              </div>
+                            </article>
+                            <!-- .post-->
+                          </div>
+
+                          <div class="block-39-total mv-col-wrapper">
+                            <div class="mv-col-left">total</div>
+                            <div class="mv-col-right">$3600.00</div>
+                          </div>
+
+                          <div class="block-39-footer">
+                            <div class="row">
+                              <div class="col-xs-6"><a href="cart.html" class="mv-btn mv-btn-style-5 btn-5-h-45 btn-5-gray responsive-btn-5-type-2 mv-btn-block">view cart</a></div>
+                              <div class="col-xs-6"><a href="checkout.html" class="mv-btn mv-btn-style-5 btn-5-h-45 responsive-btn-5-type-2 mv-btn-block">checkout</a></div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .mv-block-style-39-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- .header-shop-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .header-main-nav-->
+      </header>
+      <!-- .header-->
+
+      <section class="home-1-slideshow mv-wrap">
+        <div id="home-1-slideshow" class="mv-caroufredsel">
+          <ul class="mv-slider-wrapper">
+            <li class="mv-slider-item"><img src="images/slideshow/file.png" alt="slide" class="mv-slider-img"/>
+              <div class="mv-caption-style-1">
+                <div class="container">
+                  <div class="caption-1-text-1"></div>
+                  <div class="caption-1-text-2">
+                    <div class="mv-title-style-1"><img src="images/icon/icon_line_1.png" alt="icon" class="line-left"/><img src="images/icon/icon_line_2.png" alt="icon" class="line-right"/></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- .mv-slider-item-->
+
+           
+            <!-- .mv-slider-item-->
+          </ul>
+
+          <button id="home-1-slideshow-prev" type="button" class="mv-slider-control-btn prev mv-btn mv-btn-style-2"><span class="icon fa fa-angle-left"></span></button>
+          <button id="home-1-slideshow-next" type="button" class="mv-slider-control-btn next mv-btn mv-btn-style-2"><span class="icon fa fa-angle-right"></span></button>
+        </div>
+      </section>
+      <!-- .home-1-slideshow-->
+
+      <section class="home-1-highlight mv-wrap">
+        <div class="container">
+          <div class="mv-block-style-1">
+            <div class="row block-1-list">
+              <article class="col-xs-6 col-sm-4 item post">
+                <div class="item-inner mv-effect-translate-1">
+                  <div class="content-thumb">
+                    <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="MACACÃO ALPINESTARS MISSILE V2 WARD 1PÇ"><img src="images/demo/MACACÃO ALPINESTARS MISSILE V2 WARD 1PÇ.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="MACACÃO ALPINESTARS MISSILE V2 WARD 1PÇ" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                      <div class="content-message mv-message-style-1">
+                        <div class="message-inner"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="content-main">
+                    <div class="content-name hidden-xs hidden-sm">
+                      <div class="name-inner mv-overflow-ellipsis">ALPINESTARS</div>
+                    </div>
+                    <div class="content-text">
+                      <div class="content-price">$ 7.599,80</div>
+                      <div class="content-desc"><a href="product-detail.html" title="MACACÃO ALPINESTARS MISSILE V2 WARD 1PÇ" class="mv-overflow-ellipsis">MACACÃO ALPINESTARS MISSILE V2 WARD 1PÇ</a></div>
+                    </div>
+                  </div>
+
+                  <div class="content-hover">
+                    <div class="content-button mv-btn-group text-center">
+                      <div class="group-inner">
+                        <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                        <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-1 responsive-btn-1-type-1 btn-add-to-cart"><span class="btn-inner"><i class="btn-icon fa fa-cart-plus"></i><span class="btn-text">ADICIONAR AO CARRINHO</span></span></button>
+                        <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-xs-6 col-sm-4 item post">
+                <div class="item-inner mv-effect-translate-1">
+                  <div class="content-thumb">
+                    <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="MACACÃO TEXX PISTA 2 PEÇAS - PRETO/AZUL/VERDE"><img src="images/demo/Macacão Texx Pista 2 peças - PretoAzulVerde.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="MACACÃO TEXX PISTA 2 PEÇAS - PRETO/AZUL/VERDE" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                      <div class="content-message mv-message-style-1">
+                        <div class="message-inner"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="content-main">
+                    <div class="content-name hidden-xs hidden-sm">
+                      <div class="name-inner mv-overflow-ellipsis">TEXX</div>
+                    </div>
+                    <div class="content-text">
+                      <div class="content-price">$ 2.279,05</div>
+                      <div class="content-desc"><a href="product-detail.html" title="MACACÃO TEXX PISTA 2 PEÇAS - PRETO/AZUL/VERDE" class="mv-overflow-ellipsis">MACACÃO TEXX PISTA 2 PEÇAS - PRETO/AZUL/VERDE</a></div>
+                    </div>
+                  </div>
+
+                  <div class="content-hover">
+                    <div class="content-button mv-btn-group text-center">
+                      <div class="group-inner">
+                        <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                        <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-1 responsive-btn-1-type-1 btn-add-to-cart"><span class="btn-inner"><i class="btn-icon fa fa-cart-plus"></i><span class="btn-text">ADICIONAR AO CARRINHO</span></span></button>
+                        <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-xs-6 col-sm-4 item post">
+                <div class="item-inner mv-effect-translate-1">
+                  <div class="content-thumb">
+                    <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="JAQUETA LS2 X-ARMOR"><img src="images/demo/JAQUETA LS2 X-ARMOR.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="JAQUETA LS2 X-ARMOR" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                      <div class="content-message mv-message-style-1">
+                        <div class="message-inner"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="content-main">
+                    <div class="content-name hidden-xs hidden-sm">
+                      <div class="name-inner mv-overflow-ellipsis">LS2</div>
+                    </div>
+                    <div class="content-text">
+                      <div class="content-price">$ 1.199,90</div>
+                      <div class="content-desc"><a href="product-detail.html" title="JAQUETA LS2 X-ARMOR" class="mv-overflow-ellipsis">JAQUETA LS2 X-ARMOR</a></div>
+                    </div>
+                  </div>
+
+                  <div class="content-hover">
+                    <div class="content-button mv-btn-group text-center">
+                      <div class="group-inner">
+                        <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                        <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-1 responsive-btn-1-type-1 btn-add-to-cart"><span class="btn-inner"><i class="btn-icon fa fa-cart-plus"></i><span class="btn-text">ADICIONAR AO CARRINHO</span></span></button>
+                        <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <!-- .mv-block-style-1-->
+        </div>
+      </section>
+      <!-- .home-1-highlight-->
+
+      <section class="home-1-featured-products mv-wrap">
+        <div class="container">
+          <div class="featured-title mv-title-style-2">
+            <div class="title-2-inner"><img src="images/icon/icon_m.png" alt="icon" class="icon image-live-view"/><span class="main">Produtos em Destaque</span><span class="sub"></span></div>
+          </div>
+          <!-- .featured-title-->
+
+          <div class="featured-main mv-filter-style-1">
+            <div class="filter-button mv-btn-group">
+              <div class="group-inner">
+                <button data-filter=".helmet" class="mv-btn mv-btn-style-8">Capacetes</button>
+                <button data-filter=".boots" class="mv-btn mv-btn-style-8">Botas</button>
+                <button data-filter=".protection" class="mv-btn mv-btn-style-8">Vestuários</button>
+                <button data-filter=".protection" class="mv-btn mv-btn-style-8">Acessórios</button>
+              </div>
+            </div>
+            <!-- .filter-button-->
+
+            <div class="row filter-list-warpper">
+              <div class="filter-list mv-block-style-2">
+                <div class="block-2-list">
+                  <article class="col-xs-6 col-sm-4 col-md-3 item post filter-item motor">
+                    <div class="item-inner mv-effect-translate-1">
+                      <div class="content-default">
+                        <div class="content-thumb">
+                          <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="RST Full Zipped Sweatshirt"><img src="images/demo/CAPACETE LS2 THUNDER CARBON RACING 1 AZUL/CAPACETE LS2 THUNDER CARBON RACING 1 AZUL.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="RST Full Zipped Sweatshirt" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+                            <div class="content-message mv-message-style-1">
+                              <div class="message-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                          <div class="rate-inner mv-f-14 text-left">
+                            <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                          </div>
+                        </div>
+
+                        <div class="content-sale-off mv-label-style-3 label-primary">
+                          <div class="label-inner">-25%</div>
+                        </div>
+                      </div>
+
+                      <div class="content-main">
+                        <div class="content-text">
+                          <div class="content-price"><span class="new-price">$ 3.999,90</span></div>
+                          <div class="content-desc"><a href="product-detail.html" title="CAPACETE LS2 THUNDER CARBON RACING 1 AZUL" class="mv-overflow-ellipsis">CAPACETE LS2 THUNDER CARBON RACING 1 AZUL</a></div>
+                        </div>
+                      </div>
+
+                      <div class="content-hover">
+                        <div class="content-button mv-btn-group text-center">
+                          <div class="group-inner">
+                            <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                            <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!-- .post-->
+
+                  <article class="col-xs-6 col-sm-4 col-md-3 item post filter-item motor">
+                    <div class="item-inner mv-effect-translate-1">
+                      <div class="content-default">
+                        <div class="content-thumb">
+                          <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="Rev'it Cyclone Waterproof Jacket - Neon Yellow"><img src="images/demo/CAPACETE NORISK ROUTE FF345 MOTION BRANCO/CAPACETE NORISK ROUTE FF345 MOTION BRANCO 1.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="Rev'it Cyclone Waterproof Jacket - Neon Yellow" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                            <div class="content-message mv-message-style-1">
+                              <div class="message-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                          <div class="rate-inner mv-f-14 text-left">
+                            <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                          </div>
+                        </div>
+
+                        <div class="content-sale-off mv-label-style-3 label-primary">
+                          <div class="label-inner">-25%</div>
+                        </div>
+                      </div>
+
+                      <div class="content-main">
+                        <div class="content-text">
+                          <div class="content-price"><span class="new-price">$ 899,90</span></div>
+                          <div class="content-desc"><a href="product-detail.html" title="CAPACETE NORISK ROUTE FF345 MOTION BRANCO" class="mv-overflow-ellipsis">CAPACETE NORISK ROUTE FF345 MOTION BRANCO
+                          </a></div>
+                        </div>
+                      </div>
+
+                      <div class="content-hover">
+                        <div class="content-button mv-btn-group text-center">
+                          <div class="group-inner">
+                            <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                            <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!-- .post-->
+
+                  <article class="col-xs-6 col-sm-4 col-md-3 item post filter-item motor">
+                    <div class="item-inner mv-effect-translate-1">
+                      <div class="content-default">
+                        <div class="content-thumb">
+                          <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="RST Full Zipped Sweatshirt"><img src="images/demo/CAPACETE NORISK RAZOR CIRCUS ROSA/CAPACETE NORISK RAZOR CIRCUS ROSA.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="RST Full Zipped Sweatshirt" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                            <div class="content-message mv-message-style-1">
+                              <div class="message-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                          <div class="rate-inner mv-f-14 text-left">
+                            <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                          </div>
+                        </div>
+
+                        <div class="content-sale-off mv-label-style-3 label-primary">
+                          <div class="label-inner">-25%</div>
+                        </div>
+                      </div>
+
+                      <div class="content-main">
+                        <div class="content-text">
+                          <div class="content-price"><span class="new-price">$ 549,90</span></div>
+                          <div class="content-desc"><a href="product-detail.html" title="CAPACETE NORISK RAZOR CIRCUS ROSA" class="mv-overflow-ellipsis">CAPACETE NORISK RAZOR CIRCUS ROSA</a></div>
+                        </div>
+                      </div>
+
+                      <div class="content-hover">
+                        <div class="content-button mv-btn-group text-center">
+                          <div class="group-inner">
+                            <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                            <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!-- .post-->
+
+                  <article class="col-xs-6 col-sm-4 col-md-3 item post filter-item motor">
+                    <div class="item-inner mv-effect-translate-1">
+                      <div class="content-default">
+                        <div class="content-thumb">
+                          <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="RST Full Zipped Sweatshirt"><img src="images/demo/CAPACETE LS2 CLASSIC MONOCOLOR PRETO FOSCO/CAPACETE LS2 CLASSIC MONOCOLOR PRETO FOSCO.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="RST Full Zipped Sweatshirt" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                            <div class="content-message mv-message-style-1">
+                              <div class="message-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                          <div class="rate-inner mv-f-14 text-left">
+                            <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                          </div>
+                        </div>
+
+                        <div class="content-sale-off mv-label-style-3 label-primary">
+                          <div class="label-inner">-25%</div>
+                        </div>
+                      </div>
+
+                      <div class="content-main">
+                        <div class="content-text">
+                          <div class="content-price"><span class="new-price">$ 699,90</span></div>
+                          <div class="content-desc"><a href="product-detail.html" title="RST Full Zipped Sweatshirt" class="mv-overflow-ellipsis">CAPACETE LS2 CLASSIC MONOCOLOR PRETO FOSCO</a></div>
+                        </div>
+                      </div>
+
+                      <div class="content-hover">
+                        <div class="content-button mv-btn-group text-center">
+                          <div class="group-inner">
+                            <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                            <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!-- .post-->
+
+                  <article class="col-xs-6 col-sm-4 col-md-3 item post filter-item helmet">
+                    <div class="item-inner mv-effect-translate-1">
+                      <div class="content-default">
+                        <div class="content-thumb">
+                          <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="RST Full Zipped Sweatshirt"><img src="images/demo/CAPACETE ASX EAGLE SV LINES BRILHO PRETOGRAFITE/CAPACETE ASX EAGLE SV LINES BRILHO PRETOGRAFITE.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="RST Full Zipped Sweatshirt" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                            <div class="content-message mv-message-style-1">
+                              <div class="message-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                          <div class="rate-inner mv-f-14 text-left">
+                            <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                          </div>
+                        </div>
+
+                        <div class="content-sale-off mv-label-style-3 label-primary">
+                          <div class="label-inner">-25%</div>
+                        </div>
+                      </div>
+
+                      <div class="content-main">
+                        <div class="content-text">
+                          <div class="content-price"><span class="new-price">$ 664,50</span></div>
+                          <div class="content-desc"><a href="product-detail.html" title="CAPACETE ASX EAGLE SV LINES BRILHO PRETO/GRAFITE" class="mv-overflow-ellipsis">CAPACETE ASX EAGLE SV LINES BRILHO PRETO/GRAFITE</a></div>
+                        </div>
+                      </div>
+
+                      <div class="content-hover">
+                        <div class="content-button mv-btn-group text-center">
+                          <div class="group-inner">
+                            <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                            <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!-- .post-->
+
+                  
+                  <!-- .post-->
+
+                 
+                  <!-- .post-->
+
+                  
+                  <!-- .post-->
+
+                 
+
+                 
+                  <!-- .post-->
+
+                 
+                  <!-- .post-->
+
+                  <article class="col-xs-6 col-sm-4 col-md-3 item post filter-item protection">
+                    <div class="item-inner mv-effect-translate-1">
+                      <div class="content-default">
+                        <div class="content-thumb">
+                          <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="RST Full Zipped Sweatshirt"><img src="images/demo/CAPACETE ASX EAGLE CATRINA FOSCO PRETO AZUL VERMELHO/CAPACETE ASX EAGLE CATRINA FOSCO PRETO AZUL VERMELHO.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="RST Full Zipped Sweatshirt" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                            <div class="content-message mv-message-style-1">
+                              <div class="message-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                          <div class="rate-inner mv-f-14 text-left">
+                            <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                          </div>
+                        </div>
+
+                        <div class="content-sale-off mv-label-style-3 label-primary">
+                          <div class="label-inner">-25%</div>
+                        </div>
+                      </div>
+
+                      <div class="content-main">
+                        <div class="content-text">
+                          <div class="content-price"><span class="new-price">$ 549,90</span></div>
+                          <div class="content-desc"><a href="product-detail.html" title="CAPACETE ASX EAGLE CATRINA FOSCO PRETO AZUL VERMELHO" class="mv-overflow-ellipsis">CAPACETE ASX EAGLE CATRINA FOSCO PRETO AZUL VERMELHO</a></div>
+                        </div>
+                      </div>
+
+                      <div class="content-hover">
+                        <div class="content-button mv-btn-group text-center">
+                          <div class="group-inner">
+                            <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                            <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!-- .post-->
+
+                  <article class="col-xs-6 col-sm-4 col-md-3 item post filter-item gear">
+                    <div class="item-inner mv-effect-translate-1">
+                      <div class="content-default">
+                        <div class="content-thumb">
+                          <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="RST Full Zipped Sweatshirt"><img src="images/demo/CAPACETE URBAN GRAPH X PRETO/CAPACETE URBAN GRAPH X PRETO 1.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="RST Full Zipped Sweatshirt" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                            <div class="content-message mv-message-style-1">
+                              <div class="message-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                          <div class="rate-inner mv-f-14 text-left">
+                            <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                          </div>
+                        </div>
+
+                        <div class="content-sale-off mv-label-style-3 label-primary">
+                          <div class="label-inner">-25%</div>
+                        </div>
+                      </div>
+
+                      <div class="content-main">
+                        <div class="content-text">
+                          <div class="content-price"><span class="new-price">$ 989,00</span></div>
+                          <div class="content-desc"><a href="product-detail.html" title="CAPACETE URBAN GRAPH X PRETO" class="mv-overflow-ellipsis">CAPACETE URBAN GRAPH X PRETO</a></div>
+                        </div>
+                      </div>
+
+                      <div class="content-hover">
+                        <div class="content-button mv-btn-group text-center">
+                          <div class="group-inner">
+                            <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                            <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!-- .post-->
+
+                  <article class="col-xs-6 col-sm-4 col-md-3 item post filter-item tires">
+                    <div class="item-inner mv-effect-translate-1">
+                      <div class="content-default">
+                        <div class="content-thumb">
+                          <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="RST Full Zipped Sweatshirt"><img src="images/demo/CAPACETE URBAN TRACER DOUBLE D TUCCI BRANCO/CAPACETE URBAN TRACER DOUBLE D TUCCI BRANCO 1.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="RST Full Zipped Sweatshirt" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                            <div class="content-message mv-message-style-1">
+                              <div class="message-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                          <div class="rate-inner mv-f-14 text-left">
+                            <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                          </div>
+                        </div>
+
+                        <div class="content-sale-off mv-label-style-3 label-primary">
+                          <div class="label-inner">-25%</div>
+                        </div>
+                      </div>
+
+                      <div class="content-main">
+                        <div class="content-text">
+                          <div class="content-price"><span class="new-price">$ 749,00</span></div>
+                          <div class="content-desc"><a href="product-detail.html" title="CAPACETE URBAN TRACER DOUBLE D TUCCI BRANCO" class="mv-overflow-ellipsis">CAPACETE URBAN TRACER DOUBLE D TUCCI BRANCO</a></div>
+                        </div>
+                      </div>
+
+                      <div class="content-hover">
+                        <div class="content-button mv-btn-group text-center">
+                          <div class="group-inner">
+                            <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                            <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                            <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <!-- .filter-list-wrapper-->
+          </div>
+          <!-- .featured-main-->
+        </div>
+      </section>
+      <!-- .home-1-featured-products-->
+
+      <section class="home-1-shop hidden-xs hidden-sm mv-wrap">
+        <div class="container">
+          <div class="block-list-1">
+            <div class="mv-block-style-3"><a href="#" class="mv-btn mv-btn-style-1 btn-1-h-40 btn-1-gray responsive-btn-1-type-2 btn-shop-now hidden-xs hidden-sm"><span class="btn-inner"><i class="btn-icon fa fa-cart-plus"></i><span class="btn-text">COMPRAR AGORA</span></span></a>
+              <div class="block-3-list">
+                <div class="item">
+                  <div class="block-3-title">
+                    <div class="main"><a href="product-detail.html" title="Alpinestars Bionic Plus">CAPACETE AGV K1 NICOLO ANTONELLI</a></div>
+                    <div class="sub">Inspirado no Pista GPR, o K1 é moderno e agressivo.Tem spoiler em posição racing, ventilação multicanais e viseira com suporte para película Pinlock.</div>
+                  </div>
+                  <div class="block-3-thumb"><a href="product-detail.html" title="Alpinestars Bionic Plus"><img src="images/demo/STREET_FIGHTER_SVS-removebg-preview.png" alt="demo" class="block-3-thumb-img"/></a></div>
+                </div>
+
+                <div class="item">
+                  <div class="block-3-thumb"><a href="product-detail.html" title="Alpinestars Bionic Plus"><img src="images/demo/CAPACETE AGV K1 NICOLO ANTONELLI.png" alt="demo" class="block-3-thumb-img hidden-xs hidden-sm"/></a></div>
+                  <div class="block-3-title">
+                    <div class="main"><a href="product-detail.html" title="Alpinestars Bionic Plus">STREETFIGHTER SV S</a></div>
+                    <div class="sub">O Streetfighter é um capacete casual e versátil, ideal para pilotos destemidos que expressam sua personalidade. Com um design modular e agressivo, oferece alta segurança a um preço imbatível, refletindo a qualidade e inovação da marca.
+                    </div>
+                  </div>
+                  <div class="block-3-thumb"><a href="product-detail.html" title="Alpinestars Bionic Plus"><img src="images/demo/STREET FIGHTER SVS.png" alt="demo" class="block-3-thumb-img hidden-md hidden-lg"/></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- .mv-block-style-3-->
+          </div>
+        </div>
+      </section>
+      <!-- .home-1-shop-->
+
+      
+      <!-- .home-1-latest-blog-->
+
+      <section class="home-1-deals-last-week mv-wrap">
+        <div data-image-src="images/icon/cool-motorcycle-outdoors 2.jpeg" class="deals-last-week-bg mv-parallax">
+          <div class="container">
+            <div class="deals-last-week-title mv-title-style-2 color-white">
+              <div class="title-2-inner"><span class="main">Oferta da Semana - RoadRider</span><span class="sub">Aproveite nossos descontos imperdíveis em artigos motociclísticos!
+                 <br/>Promoção válida de 04/07/2024 a 27/07/2024</span></div>
+            </div>
+            <!-- .deals-last-week-title-->
+
+            <div class="deals-last-week-main">
+              <div class="deals-last-week-list">
+                <div class="mv-block-style-2">
+                  <div class="row block-2-list">
+                    <article class="col-xs-6 col-md-3 item post item-bg-white">
+                      <div class="item-inner mv-effect-translate-1">
+                        <div class="content-default">
+                          <div class="content-thumb">
+                            <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="BOTA ALPINESTARS TECH 7"><img src="images/demo/BOTA ALPINESTARS TECH 7.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="Alpinestars Techstar Motocross Kit Combo" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                              <div class="content-message mv-message-style-1">
+                                <div class="message-inner"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                            <div class="rate-inner mv-f-14 text-left">
+                              <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                              <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            </div>
+                          </div>
+                          <div class="content-sale-off mv-label-style-3 label-dark"> 
+                            <div class="label-inner">-25%</div>
+                          </div>
+                        </div>
+
+                        <div class="content-main">
+                          <div class="content-text">
+                            <div class="content-price"><span class="new-price">$ 2.774,62.</span></div>
+                            <div class="content-desc"><a href="product-detail.html" title="BOTA ALPINESTARS TECH 7" class="mv-overflow-ellipsis">BOTA ALPINESTARS TECH 7</a></div>
+                          </div>
+                        </div>
+
+                        <div class="content-hover">
+                          <div class="content-button mv-btn-group text-center">
+                            <div class="group-inner">
+                              <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                              <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                              <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <!-- .post-->
+
+                    <article class="col-xs-6 col-md-3 item post item-bg-white">
+                      <div class="item-inner mv-effect-translate-1">
+                        <div class="content-default">
+                          <div class="content-thumb">
+                            <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="LUVA ALPINESTARS MEGAWATT V2"><img src="images/demo/LUVA ALPINESTARS MEGAWATT V2.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="Spada Enforcer WP Glove" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                              <div class="content-message mv-message-style-1">
+                                <div class="message-inner"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                            <div class="rate-inner mv-f-14 text-left">
+                              <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                              <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            </div>
+                          </div>
+
+                          <div class="content-sale-off mv-label-style-3 label-dark"> 
+                            <div class="label-inner">-25%</div>
+                          </div>
+                        </div>
+
+                        <div class="content-main">
+                          <div class="content-text">
+                            <div class="content-price"><span class="new-price">$ 427,12</span></div>
+                            <div class="content-desc"><a href="product-detail.html" title="LUVA ALPINESTARS MEGAWATT V2" class="mv-overflow-ellipsis">LUVA ALPINESTARS MEGAWATT V2</a></div>
+                          </div>
+                        </div>
+
+                        <div class="content-hover">
+                          <div class="content-button mv-btn-group text-center">
+                            <div class="group-inner">
+                              <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                              <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                              <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="col-xs-6 col-md-3 item post item-bg-white">
+                      <div class="item-inner mv-effect-translate-1">
+                        <div class="content-default">
+                          <div class="content-thumb">
+                            <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="MOCHILA ALPINESTARS FORCE BACKPACK"><img src="images/demo/MOCHILA ALPINESTARS FORCE BACKPACK.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="Alpinestars Techstar Motocross Kit Combo" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                              <div class="content-message mv-message-style-1">
+                                <div class="message-inner"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                            <div class="rate-inner mv-f-14 text-left">
+                              <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                              <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            </div>
+                          </div>
+                          <div class="content-sale-off mv-label-style-3 label-dark"> 
+                            <div class="label-inner">-25%</div>
+                          </div>
+                        </div>
+
+                        <div class="content-main">
+                          <div class="content-text">
+                            <div class="content-price"><span class="new-price">$ 637,11</span></div>
+                            <div class="content-desc"><a href="product-detail.html" title="MOCHILA ALPINESTARS FORCE BACKPACK" class="mv-overflow-ellipsis">MOCHILA ALPINESTARS FORCE BACKPACK</a></div>
+                          </div>
+                        </div>
+
+                        <div class="content-hover">
+                          <div class="content-button mv-btn-group text-center">
+                            <div class="group-inner">
+                              <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                              <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                              <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <!-- .post-->
+
+                    <article class="col-xs-6 col-md-3 item post item-bg-white">
+                      <div class="item-inner mv-effect-translate-1">
+                        <div class="content-default">
+                          <div class="content-thumb">
+                            <div class="thumb-inner mv-effect-relative"><a href="product-detail.html" title="JAQUETA ALPINESTARS SEKTOR V2 TECH HOODIE"><img src="images/demo/JAQUETA ALPINESTARS SEKTOR V2 TECH HOODIE.png" alt="demo" class="mv-effect-item"/></a><a href="product-detail.html" title="Spada Enforcer WP Glove" class="mv-btn mv-btn-style-25 btn-readmore-plus hidden-xs"><span class="btn-inner"></span></a>
+
+                              <div class="content-message mv-message-style-1">
+                                <div class="message-inner"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div data-rate="true" data-score="5.0" class="content-rate mv-rate text-center">
+                            <div class="rate-inner mv-f-14 text-left">
+                              <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                              <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                            </div>
+                          </div>
+
+                          <div class="content-sale-off mv-label-style-3 label-dark"> 
+                            <div class="label-inner">-25%</div>
+                          </div>
+                        </div>
+
+                        <div class="content-main">
+                          <div class="content-text">
+                            <div class="content-price"><span class="new-price">$  1.424,62</span></div>
+                            <div class="content-desc"><a href="product-detail.html" title="JAQUETA ALPINESTARS SEKTOR V2 TECH HOODIE" class="mv-overflow-ellipsis">JAQUETA ALPINESTARS SEKTOR V2 TECH HOODIE</a></div>
+                          </div>
+                        </div>
+
+                        <div class="content-hover">
+                          <div class="content-button mv-btn-group text-center">
+                            <div class="group-inner">
+                              <button type="button" title="Add To Wishlist" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-wishlist"><i class="fa fa-heart-o"></i></button>
+                              <button type="button" title="Compare" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-compare"><i class="fa fa-signal"></i></button>
+                              <button type="button" title="Add To Cart" class="mv-btn mv-btn-style-3 responsive-btn-3-type-1 btn-add-to-cart"><i class="fa fa-cart-plus"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <!-- .post-->
+
+                    
+                    <!-- .post-->
+
+                    
+                    <!-- .post-->
+                  </div>
+                </div>
+                <!-- .mv-block-style-2-->
+              </div>
+            </div>
+            <!-- .deals-last-week-main-->
+          </div>
+        </div>
+      </section>
+      <!-- .home-1-deals-last-week-->
+
+      <section class="home-1-testimonial mv-wrap">
+        <div class="container">
+          <div class="testimonial-title mv-title-style-2">
+            <div class="title-2-inner"><img src="images/icon/icon_m.png" alt="icon" class="icon image-live-view"/><span class="main">Feedback dos Clientes</span><span class="sub">Nossos clientes são apaixonados pelo que fazem, e aqui na RoadRider, nos orgulhamos de fornecer os melhores produtos para motociclistas de todos os tipos. Veja o que nossos clientes têm a dizer sobre suas experiências com nossos equipamentos e serviços.</span></div>
+          </div>
+          <!-- .testimonial-title-->
+
+          <div class="testimonial-main">
+            <div class="mv-block-style-5">
+              <div id="home-1-testimonial-slider" class="mv-slick-slide">
+                <div class="row">
+                  <div class="col-md-6 col-main">
+                    <div class="col-inner">
+                      <div class="slider gallery-main">
+
+                        <div class="slick-slide">
+                          <div class="slick-slide-inner">
+                            <div class="block-5-quote mv-quote-style-1">
+                              <div class="mv-dp-table">
+                                <div class="mv-dp-table-cell quote-icon"><i class="icon fa fa-quote-left"></i></div>
+                                <div class="mv-dp-table-cell quote-main">
+                                  <div class="quote-content">A RoadRider tem os melhores produtos de motociclismo que já encontrei. A qualidade dos capacetes e jaquetas é incomparável e o atendimento ao cliente é excelente. Recomendo a todos os meus amigos motociclistas!</div>
+                                  <div class="quote-line"></div>
+
+                                  <div class="block-5-profile mv-block-style-6">
+                                    <div class="mv-dp-table">
+                                      <div class="mv-dp-table-cell block-6-thumb"><a href="#"><span style="background-image: url(images/avatar/imagem1.jpg);" class="block-6-thumb-img"></span></a></div>
+                                      <div class="mv-dp-table-cell block-6-main">
+                                        <div class="block-6-name"> <a href="#">Robert Souza</a></div>
+                                        <div class="block-6-office">Entusiasta de Motocross<span class="sub">Cliente da RoadRider desde 2022</span></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- .block-5-profile-->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .slick-slide-->
+
+                        <div class="slick-slide">
+                          <div class="slick-slide-inner">
+                            <div class="block-5-quote mv-quote-style-1">
+                              <div class="mv-dp-table">
+                                <div class="mv-dp-table-cell quote-icon"><i class="icon fa fa-quote-left"></i></div>
+                                <div class="mv-dp-table-cell quote-main">
+                                  <div class="quote-content">Desde que comecei a comprar na RoadRider, minha performance nas corridas melhorou significativamente. Os produtos são feitos com materiais de alta qualidade e durabilidade. A RoadRider é, sem dúvida, minha loja favorita de artigos motociclísticos.</div>
+                                  <div class="quote-line"></div>
+
+                                  <div class="block-5-profile mv-block-style-6">
+                                    <div class="mv-dp-table">
+                                      <div class="mv-dp-table-cell block-6-thumb"><a href="#"><span style="background-image: url(images/avatar/imagem2.jpg);" class="block-6-thumb-img"></span></a></div>
+                                      <div class="mv-dp-table-cell block-6-main">
+                                        <div class="block-6-name"> <a href="#">Ana Lima</a></div>
+                                        <div class="block-6-office">Piloto de Corrida<span class="sub">Campeã Nacional de Motovelocidade 2023</span></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- .block-5-profile-->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .slick-slide-->
+
+                        <div class="slick-slide">
+                          <div class="slick-slide-inner">
+                            <div class="block-5-quote mv-quote-style-1">
+                              <div class="mv-dp-table">
+                                <div class="mv-dp-table-cell quote-icon"><i class="icon fa fa-quote-left"></i></div>
+                                <div class="mv-dp-table-cell quote-main">
+                                  <div class="quote-content">A RoadRider oferece uma linha incrível de acessórios para motos de aventura. Comprei várias peças para minha viagem pelo Brasil e fiquei impressionado com a resistência e a funcionalidade. É ótimo contar com uma loja que entende as necessidades dos motociclistas.</div>
+                                  <div class="quote-line"></div>
+
+                                  <div class="block-5-profile mv-block-style-6">
+                                    <div class="mv-dp-table">
+                                      <div class="mv-dp-table-cell block-6-thumb"><a href="#"><span style="background-image: url(images/avatar/imagem3.jpg);" class="block-6-thumb-img"></span></a></div>
+                                      <div class="mv-dp-table-cell block-6-main">
+                                        <div class="block-6-name"> <a href="#">Carlos Mendes</a></div>
+                                        <div class="block-6-office">Motociclista Aventureiro<span class="sub">Viajante pelo Brasil</span></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- .block-5-profile-->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .slick-slide-->
+
+                        <div class="slick-slide">
+                          <div class="slick-slide-inner">
+                            <div class="block-5-quote mv-quote-style-1">
+                              <div class="mv-dp-table">
+                                <div class="mv-dp-table-cell quote-icon"><i class="icon fa fa-quote-left"></i></div>
+                                <div class="mv-dp-table-cell quote-main">
+                                  <div class="quote-content">Encontrei na RoadRider tudo o que precisava para minhas aventuras urbanas. Suas luvas e jaquetas são perfeitas para o trânsito da cidade, oferecendo conforto e proteção sem igual. Recomendo a todos os motociclistas que buscam qualidade e estilo.</div>
+                                  <div class="quote-line"></div>
+
+                                  <div class="block-5-profile mv-block-style-6">
+                                    <div class="mv-dp-table">
+                                      <div class="mv-dp-table-cell block-6-thumb"><a href="#"><span style="background-image: url(images/avatar/imagem5.jpg);" class="block-6-thumb-img"></span></a></div>
+                                      <div class="mv-dp-table-cell block-6-main">
+                                        <div class="block-6-name"> <a href="#">Fernanda Silva</a></div>
+                                        <div class="block-6-office">Motociclista Urbana<span class="sub">Exploradora das Cidades</span></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- .block-5-profile-->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .slick-slide-->
+
+                        <div class="slick-slide">
+                          <div class="slick-slide-inner">
+                            <div class="block-5-quote mv-quote-style-1">
+                              <div class="mv-dp-table">
+                                <div class="mv-dp-table-cell quote-icon"><i class="icon fa fa-quote-left"></i></div>
+                                <div class="mv-dp-table-cell quote-main">
+                                  <div class="quote-content">A RoadRider é minha escolha número um para equipamentos de estrada. Suas botas e capacetes são essenciais para minhas longas viagens, combinando segurança e conforto. Sempre confio na RoadRider para me preparar para novas aventuras.</div>
+                                  <div class="quote-line"></div>
+
+                                  <div class="block-5-profile mv-block-style-6">
+                                    <div class="mv-dp-table">
+                                      <div class="mv-dp-table-cell block-6-thumb"><a href="#"><span style="background-image: url(images/avatar/imagem4.jpg);" class="block-6-thumb-img"></span></a></div>
+                                      <div class="mv-dp-table-cell block-6-main">
+                                        <div class="block-6-name"> <a href="#">Rafael Santos</a></div>
+                                        <div class="block-6-office">Motociclista de Estrada<span class="sub">Amante da Liberdade</span></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- .block-5-profile-->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .slick-slide-->
+                      </div>
+
+                      <div class="slick-slide-control mv-btn-group">
+                        <div class="group-inner"></div>
+                      </div>
+                    </div>
+                    <!-- .gallery-main-->
+                  </div>
+
+                  <div class="col-md-6 col-thumbs hidden-xs hidden-sm">
+                    <div class="col-inner">
+                      <div class="slider gallery-thumbs">
+                        <div class="slick-slide">
+                          <div class="slick-slide-inner mv-block-style-7">
+                            <div style="background-image: url(images/demo/demo_800x300.png)" class="block-7-bg"></div>
+                            <div class="block-7-polygon"><span class="polygon-inner"></span></div>
+                            <div class="block-7-main">
+                              <div class="mv-dp-table">
+                                <div class="mv-dp-table-cell block-7-thumb"><span style="background-image: url(images/avatar/imagem1.jpg);" class="block-7-thumb-img"></span></div>
+                                <div class="mv-dp-table-cell block-7-detail">
+                                  <div class="block-7-detail-inner">
+                                    <div class="block-7-name">Robert Souza</div>
+                                    <div class="block-7-office">Entusiasta de Motocross<span class="sub">Cliente da RoadRider desde 2022</span></div>
+                                    <div class="block-7-icon-quote"><i class="icon fa fa-quote-left"></i></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .slick-slide-->
+
+                        <div class="slick-slide">
+                          <div class="slick-slide-inner mv-block-style-7">
+                            <div style="background-image: url(images/demo/demo_800x300.jpg)" class="block-7-bg"></div>
+                            <div class="block-7-polygon"><span class="polygon-inner"></span></div>
+                            <div class="block-7-main">
+                              <div class="mv-dp-table">
+                                <div class="mv-dp-table-cell block-7-thumb"><span style="background-image: url(images/avatar/imagem2.jpg);" class="block-7-thumb-img"></span></div>
+                                <div class="mv-dp-table-cell block-7-detail">
+                                  <div class="block-7-detail-inner">
+                                    <div class="block-7-name">Ana Lima</div>
+                                    <div class="block-7-office">Piloto de Corrida<span class="sub">Campeã Nacional de Motovelocidade 2023</span></div>
+                                    <div class="block-7-icon-quote"><i class="icon fa fa-quote-left"></i></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .slick-slide-->
+
+                        <div class="slick-slide">
+                          <div class="slick-slide-inner mv-block-style-7">
+                            <div style="background-image: url(images/demo/demo_800x300.png)" class="block-7-bg"></div>
+                            <div class="block-7-polygon"><span class="polygon-inner"></span></div>
+                            <div class="block-7-main">
+                              <div class="mv-dp-table">
+                                <div class="mv-dp-table-cell block-7-thumb"><span style="background-image: url(images/avatar/imagem3.jpg);" class="block-7-thumb-img"></span></div>
+                                <div class="mv-dp-table-cell block-7-detail">
+                                  <div class="block-7-detail-inner">
+                                    <div class="block-7-name">Carlos Mendes</div>
+                                    <div class="block-7-office">Motociclista Aventureiro<span class="sub">Viajante pelo Brasil</span></div>
+                                    <div class="block-7-icon-quote"><i class="icon fa fa-quote-left"></i></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .slick-slide-->
+
+                        <div class="slick-slide">
+                          <div class="slick-slide-inner mv-block-style-7">
+                            <div style="background-image: url(images/demo/demo_800x300.png)" class="block-7-bg"></div>
+                            <div class="block-7-polygon"><span class="polygon-inner"></span></div>
+                            <div class="block-7-main">
+                              <div class="mv-dp-table">
+                                <div class="mv-dp-table-cell block-7-thumb"><span style="background-image: url(images/avatar/imagem5.jpg);" class="block-7-thumb-img"></span></div>
+                                <div class="mv-dp-table-cell block-7-detail">
+                                  <div class="block-7-detail-inner">
+                                    <div class="block-7-name">Fernanda Silva</div>
+                                    <div class="block-7-office">Motociclista Urbana<span class="sub">Exploradora das Cidades</span></div>
+                                    <div class="block-7-icon-quote"><i class="icon fa fa-quote-left"></i></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .slick-slide-->
+
+                        <div class="slick-slide">
+                          <div class="slick-slide-inner mv-block-style-7">
+                            <div style="background-image: url(images/demo/demo_800x300.png)" class="block-7-bg"></div>
+                            <div class="block-7-polygon"><span class="polygon-inner"></span></div>
+                            <div class="block-7-main">
+                              <div class="mv-dp-table">
+                                <div class="mv-dp-table-cell block-7-thumb"><span style="background-image: url(images/avatar/imagem4.jpg);" class="block-7-thumb-img"></span></div>
+                                <div class="mv-dp-table-cell block-7-detail">
+                                  <div class="block-7-detail-inner">
+                                    <div class="block-7-name">Rafael Santos</div>
+                                    <div class="block-7-office">Motociclista de Estrada<span class="sub">Amante da Liberdade</span></div>
+                                    <div class="block-7-icon-quote"><i class="icon fa fa-quote-left"></i></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .slick-slide-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- .gallery-thumbs-->
+              </div>
+              <!-- #home-1-testimonial-slider-->
+            </div>
+            <!-- .mv-block-style-5-->
+          </div>
+          <!-- .testimonial-main-->
+        </div>
+      </section>
+      <!-- .home-1-testimonial-->
+
+      <section class="main-newsletter mv-newsletter-style-2 mv-wrap">
+        <div class="container">
+          <form method="GET" class="form-newsletter mv-form-horizontal">
+            <div class="mv-form-group">
+              <label class="col-xs-12 col-sm-3 hidden-xs mv-label text-right text-uppercase">Atualizações RoadRider</label>
+              <div class="col-xs-12 col-sm-9 mv-field">
+                <div class="mv-inputbox-icon right">
+                  <input type="text" name="test138" data-mv-placeholder="cadastre seu e-mail aqui" placeholder="cadastre seu e-mail aqui" class="mv-inputbox mv-inputbox-style-1"/>
+                  <button type="button" class="mv-btn mv-btn-style-4 icon"><i class="btn-icon fa fa-long-arrow-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- .mv-newsletter-style-2-->
+
+      <footer class="footer mv-footer-style-2 mv-wrap">
+        <div style="background-image: url(images/demo/TELAPRETA.png)" class="footer-bg">
+          <div class="container">
+            <div class="footer-inner">
+              <div id="footerNav" role="tablist" aria-multiselectable="true" class="footer-nav panel-group">
+                <div class="row">
+                  <div class="col-md-3 footer-nav-col footer-contact"><a data-toggle="collapse" data-parent="#footerNav" href="#footerContact" aria-expanded="true" aria-controls="footerContact" class="footer-title collapsed">informações de contato</a>
+                    <div id="footerContact" role="tabpanel" class="footer-main collapse">
+                      <ul class="mv-ul footer-main-inner list">
+                        <li class="mv-icon-left-style-1 item">
+                          <div class="mv-dp-table align-middle">
+                            <div class="mv-dp-table-cell icon"><i class="icon-fa fa fa-map-marker mv-f-22 mv-color-primary"></i></div>
+                            <div class="mv-dp-table-cell text">R. Rio Xingú, 1172 - Iguaçu, Fazenda Rio Grande - PR, 83833-542</div>
+                          </div>
+                        </li>
+                        <li class="mv-icon-left-style-1 item">
+                          <div class="mv-dp-table align-middle">
+                            <div class="mv-dp-table-cell icon"><i class="icon-fa fa fa-mobile mv-f-26 mv-color-primary"></i></div>
+                            <div class="mv-dp-table-cell text">Telefone: (41) 3627-5566</div>
+                          </div>
+                        </li>
+                        <li class="mv-icon-left-style-1 item">
+                          <div class="mv-dp-table align-middle">
+                            <div class="mv-dp-table-cell icon"><i class="icon-fa fa fa-envelope-o mv-f-20 mv-color-primary"></i></div>
+                            <div class="mv-dp-table-cell text">EMAIL:<a href="info@roadridermotos.com"> info@roadridermotos.com</a></div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 footer-nav-col footer-about-us"><a data-toggle="collapse" data-parent="#footerNav" href="#footerAboutUs" aria-expanded="false" aria-controls="footerAboutUs" class="footer-title collapsed">SOBRE NÓS</a>
+                    <div id="footerAboutUs" role="tabpanel" class="footer-main collapse">
+                      <div class="footer-main-inner">
+                        <div class="about-us-content">
+                          <p>Bem-vindo à RoadRider, sua companheira de estrada no universo do motociclismo. Desde nossa fundação, estamos dedicados a proporcionar aos apaixonados por duas rodas uma experiência única. </p>
+                          <p>Com uma vasta seleção de equipamentos, acessórios e peças de qualidade, estamos aqui para equipar e inspirar cada jornada sobre duas rodas. Na RoadRider, não apenas vendemos produtos, mas compartilhamos uma paixão pelo motociclismo e pela liberdade que ele proporciona. Junte-se a nós e descubra o verdadeiro espírito das estradas.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 footer-nav-col footer-faqs"><a data-toggle="collapse" data-parent="#footerNav" href="#footerFaqs" aria-expanded="false" aria-controls="footerFaqs" class="footer-title collapsed">PERGUNTAS FREQUENTES</a>
+                    <div id="footerFaqs" role="tabpanel" class="footer-main collapse">
+                      <ul class="mv-ul footer-main-inner list">
+                        <li class="item mv-icon-left-style-2"><a href="#"><span class="text"><span class="icon"><i class="fa fa-angle-right"></i></span>DEVOLUÇÕES</span></a></li>
+                        <li class="item mv-icon-left-style-2"><a href="#"><span class="text"><span class="icon"><i class="fa fa-angle-right"></i></span>MAPA DO SITE</span></a></li>
+                        <li class="item mv-icon-left-style-2"><a href="#"><span class="text"><span class="icon"><i class="fa fa-angle-right"></i></span>MARCAS</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 footer-nav-col footer-order-tracking"><a data-toggle="collapse" data-parent="#footerNav" href="#footerOrderTracking" aria-expanded="false" aria-controls="footerOrderTracking" class="footer-title collapsed">POLÍTICA DE PRIVACIDADE</a>
+                    <div id="footerOrderTracking" role="tabpanel" class="footer-main collapse">
+                      <ul class="mv-ul footer-main-inner list">
+                        <li class="item mv-icon-left-style-2"><a href="#"><span class="text"><span class="icon"><i class="fa fa-angle-right"></i></span>TERMOS E CONDIÇÕES</span></a></li>
+                        <li class="item mv-icon-left-style-2"><a href="#"><span class="text"><span class="icon"><i class="fa fa-angle-right"></i></span>POLÍTICA DE PRIVACIDADE</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .footer-nav-->
+
+              <div class="footer-payment">
+                <ul class="mv-ul list">
+                  <li class="item"><a href="#"><img src="images/icon/icon_paypal.png" alt="icon"/></a></li>
+                  <li class="item"><a href="#"><img src="images/icon/icon_master_card.png" alt="icon"/></a></li>
+                  <li class="item"><a href="#"><img src="images/icon/icon_american_express.png" alt="icon"/></a></li>
+                  <li class="item"><a href="#"><img src="images/icon/icon_visa.png" alt="icon"/></a></li>
+                </ul>
+              </div>
+              <!-- .footer-payment-->
+
+              <div class="footer-copyright text-center">Copyright &copy; 2016 Motor Vehikal by<a href="http://www.joomlaux.com/" target="_blank"> JUXdesign.</a> All Rights Reserved.</div>
+              <!-- .footer-copyright-->
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="mv-btn mv-btn-style-17 mv-back-to-top fixed-right-bottom"><i class="btn-icon fa fa-long-arrow-up"></i></button>
+      </footer>
+      <!-- .footer-->
+
+      <div class="off-canvas-wrapper-left hidden-md hidden-lg">
+        <div class="off-canvas-left">
+          <div class="off-canvas-header">
+            <button class="btn-close-off-canvas click-close-off-canvas">x</button>
+          </div>
+          <div class="off-canvas-body">
+            <nav class="main-nav">
+              <ul class="nav sf-menu expand-all">
+                <li class="mega-columns"><a href="home.html"><span class="menu-text">Home <i class="menu-icon fa fa-angle-down"></i></span></a>
+                  <ul class="row">
+                    <li class="col-xs-3 mega-col"><a href="home.html" class="mega-title"><span class="menu-text">Homepage Demos</span></a>
+                      <ul class="mega-content">
+                        <li class="active"><a href="home.html">Home 1</a></li>
+                        <li><a href="home-2.html">Home 2</a></li>
+                        <li><a href="home-3.html">Home 3</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-xs-3 mega-col"><a href="home.html" class="mega-title"><span class="menu-text">Homepage Demos</span></a>
+                      <ul class="mega-content">
+                        <li><a href="home-4.html">Home 4</a></li>
+                        <li><a href="home-5.html">Home 5</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-xs-3 mega-col"><a href="home.html" class="mega-title"><span class="menu-text">Homepage Demos</span></a>
+                      <ul class="mega-content">
+                        <li><a href="home-lookbook-1.html">Home Lookbook 1</a></li>
+                        <li><a href="home-lookbook-2.html">Home Lookbook 2</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-xs-3 mega-col"><a href="home.html" class="mega-title"><span class="menu-text">Homepage Demos</span></a>
+                      <ul class="mega-content">
+                        <li><a href="home-parallax.html">Home Parallax</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#"><span class="menu-text">Product <i class="menu-icon fa fa-angle-down"></i></span></a>
+                  <ul>
+                    <li><a href="product-list.html">Product List</a></li>
+                    <li><a href="product-grid-2.html">Product Grid 2</a></li>
+                    <li><a href="product-grid-3.html">Product Grid 3</a></li>
+                    <li><a href="product-grid-3-no-sb.html">Product Grid 3 No Sidebar</a></li>
+                    <li><a href="product-grid-4-no-sb.html">Product Grid 4 No Sidebar</a></li>
+                    <li><a href="product-grid-5-fullwidth.html">Product Grid 5 Fullwidth</a></li>
+                    <li><a href="product-detail.html">Product Detail</a></li>
+                    <li><a href="product-detail-rated.html">Product Detail Rated</a></li>
+                    <li><a href="search.html">Search</a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span class="menu-text">Shop <i class="menu-icon fa fa-angle-down"></i></span></a>
+                  <ul>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                    <li><a href="wishlist.html">Wishlist</a></li>
+                    <li><a href="compare.html">Compare</a></li>
+                    <li><a href="track-your-order.html">Track Your Order</a></li>
+                    <li><a href="cart-empty.html">Cart Empty</a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span class="menu-text">Blog <i class="menu-icon fa fa-angle-down"></i></span></a>
+                  <ul>
+                    <li><a href="blog-list.html">Blog List</a></li>
+                    <li><a href="blog-grid-2.html">Blog Grid 2</a></li>
+                    <li><a href="blog-grid-3-no-sb.html">Blog Grid 3 No Sidebar</a></li>
+                    <li><a href="blog-grid-3-mansory-no-sb.html">Blog Grid 3 Mansory No Sidebar</a></li>
+                    <li><a href="blog-detail.html">Blog Detail</a></li>
+                  </ul>
+                </li>
+                <li><a href="about-us.html"><span class="menu-text">About Us</span></a></li>
+                <li><a href="contact.html"><span class="menu-text">Contact</span></a></li>
+                <li><a href="#"><span class="menu-text">Pages <i class="menu-icon fa fa-angle-down"></i></span></a>
+                  <ul class="dropdown-left">
+                    <li><a href="login.html">Login & Register</a></li>
+                    <li><a href="forgot-password.html">Forgot Password</a></li>
+                    <li><a href="faqs.html">Faqs</a></li>
+                    <li><a href="newsletter.html">Newsletter</a></li>
+                    <li><a href="shortcodes.html">Shortcodes</a></li>
+                    <li><a href="common-element.html">Common Element</a></li>
+                    <li><a href="error-page.html">Error Page</a></li>
+                    <li><a href="#"><span class="menu-text">Example menu item <i class="menu-icon fa fa-angle-down"></i></span></a>
+                      <ul>
+                        <li><a href="#">Example menu item</a></li>
+                        <li><a href="#"><span class="menu-text">Example menu item <i class="menu-icon fa fa-angle-down"></i></span></a>
+                          <ul>
+                            <li><a href="#">Example menu item</a></li>
+                            <li><a href="#">Example menu item</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#"><span class="menu-text">Example menu item <i class="menu-icon fa fa-angle-down"></i></span></a>
+                          <ul class="dropdown-left">
+                            <li><a href="#">Example menu item</a></li>
+                            <li><a href="#">Example menu item</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- .off-canvas-wrapper-left-->
+
+      <div class="off-canvas-wrapper-right hidden-md hidden-lg">
+        <div class="off-canvas-right">
+          <div class="off-canvas-header">
+            <button class="btn-close-off-canvas click-close-off-canvas">x</button>
+          </div>
+
+          <div class="off-canvas-body">
+            <div class="mv-aside mv-aside-search">
+              <div class="aside-title mv-title-style-11">search</div>
+              <div class="aside-body">
+                <form method="GET" class="form-aside-search">
+                  <div class="mv-inputbox-icon right">
+                    <input type="text" name="test138" class="mv-inputbox mv-inputbox-style-2"/>
+                    <button type="submit" class="icon mv-btn mv-btn-style-4 fa fa-search"></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- .mv-aside-search-->
+
+            <div class="mv-aside mv-aside-filter-by-price">
+              <div class="aside-title mv-title-style-11">filter by price</div>
+              <div class="aside-body">
+                <form method="GET" class="form-aside-filter-by-price">
+                  <div class="mv-slider-range">
+                    <div class="slider-range-wrapper mv-slider-range-style-1">
+                      <div class="slider-range"></div>
+                    </div>
+                    <div class="mv-dp-table align-middle">
+                      <div class="mv-dp-table-cell view-values">Price: $<span class="min-value"></span> - $<span class="max-value"></span></div>
+                      <div class="mv-dp-table-cell filter-button">
+                        <button type="submit" class="mv-btn mv-btn-style-5 btn-5-h-30">filter</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <nav class="filter-by-price-menu mv-menu-style-1">
+                  <ul>
+                    <li><a href="#" class="mv-icon-left-style-5">$10 - $50<span class="sub-text">&nbsp; (8)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">$50 - $100<span class="sub-text">&nbsp; (8)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">$100 - $500<span class="sub-text">&nbsp; (3)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">$500 - $1000<span class="sub-text">&nbsp; (16)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">$1000 - $5000<span class="sub-text">&nbsp; (6)</span></a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <!-- .mv-aside-filter-by-price-->
+
+            <div class="mv-aside mv-aside-product-type">
+              <div class="aside-title mv-title-style-11">product type</div>
+              <div class="aside-body">
+                <nav class="product-type-menu mv-menu-style-1">
+                  <ul>
+                    <li><a href="#" class="mv-icon-left-style-5">Full Face Helmets<span class="sub-text">&nbsp; (8)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Flip Up Helmets<span class="sub-text">&nbsp; (3)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Open Face Helmets<span class="sub-text">&nbsp; (38)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Adventure Helmets<span class="sub-text">&nbsp; (12)</span></a>
+                      <ul class="sub-menu">
+                        <li><a href="#" class="mv-icon-left-style-5">AGV Helmets<span class="sub-text">&nbsp; (3)</span></a></li>
+                        <li><a href="#" class="mv-icon-left-style-5">Arai Helmets<span class="sub-text">&nbsp; (12)</span></a></li>
+                        <li class="active"><a href="#" class="mv-icon-left-style-5">Bell Helmets<span class="sub-text">&nbsp; (8)</span></a></li>
+                        <li><a href="#" class="mv-icon-left-style-5">BOX Helmets<span class="sub-text">&nbsp; (15)</span></a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="mv-icon-left-style-5">Trousers<span class="sub-text">&nbsp; (19)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Dresses<span class="sub-text">&nbsp; (34)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Shoes<span class="sub-text">&nbsp; (22)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Accessories<span class="sub-text">&nbsp; (17)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Sale<span class="sub-text">&nbsp; (3)</span></a></li>
+                    <li><a href="#" class="mv-icon-left-style-5"> <strong>View More</strong><span class="sub-text">&nbsp; (50) &nbsp;</span><i class="fa fa-caret-down"></i></a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <!-- .mv-aside-product-type-->
+
+            <div class="mv-aside mv-aside-filter-by-size">
+              <div class="aside-title mv-title-style-11">filter by</div>
+              <div class="aside-body">
+                <nav class="filter-by-price-menu mv-menu-style-1">
+                  <ul>
+                    <li><a href="#" class="mv-icon-left-style-5">Extra Large</a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Extra Small</a></li>
+                    <li class="active"><a href="#" class="mv-icon-left-style-5">Large</a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Medium</a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">One Size Fits All</a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Small</a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Taille Unique</a></li>
+                    <li><a href="#" class="mv-icon-left-style-5">Sale</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <!-- .mv-aside-filter-by-size-->
+
+            <div class="mv-aside mv-aside-size">
+              <div class="aside-title mv-title-style-11">size</div>
+              <div class="aside-body">
+                <nav class="size-list">
+                  <div class="mv-btn-group">
+                    <div class="group-inner"><a href="#" class="mv-btn mv-btn-style-21">XXL</a><a href="#" class="mv-btn mv-btn-style-21 active">XL</a><a href="#" class="mv-btn mv-btn-style-21">L</a><a href="#" class="mv-btn mv-btn-style-21">M</a><a href="#" class="mv-btn mv-btn-style-21">S</a></div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <!-- .mv-aside-size-->
+
+            <div class="mv-aside mv-aside-color">
+              <div class="aside-title mv-title-style-11">color</div>
+              <div class="aside-body">
+                <div class="color-list mv-list-inline-style-1 space-10">
+                  <ul class="list-inline-1">
+                    <li class="active"><a href="#"><span style="background-color: #7bef66;" class="icon-color"></span></a></li>
+                    <li><a href="#"><span style="background-color: #ff8888;" class="icon-color"></span></a></li>
+                    <li><a href="#"><span style="background-color: #c4dd66;" class="icon-color"></span></a></li>
+                    <li><a href="#"><span style="background-color: #94b7f7;" class="icon-color"></span></a></li>
+                    <li><a href="#"><span style="background-color: #a3fbff;" class="icon-color"></span></a></li>
+                    <li><a href="#"><span style="background-color: #f7fb0d;" class="icon-color"></span></a></li>
+                    <li><a href="#"><span style="background-color: #7b7878;" class="icon-color"></span></a></li>
+                    <li><a href="#"><span style="background-color: #d041ff;" class="icon-color"></span></a></li>
+                    <li><a href="#"><span style="background-color: #fdab14;" class="icon-color"></span></a></li>
+                    <li><a href="#"><span style="background-color: #eeeeee" class="icon-color"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- .mv-aside-color-->
+
+            <div class="mv-aside mv-aside-products">
+              <div class="aside-title mv-title-style-11">products</div>
+              <div class="aside-body">
+                <div class="products-list">
+                  <div class="mv-block-style-24">
+                    <div class="block-24-list">
+                      <article class="item post">
+                        <div class="item-inner">
+                          <div class="mv-dp-table">
+                            <div class="mv-dp-table-cell block-24-thumb">
+                              <div class="thumb-inner mv-lightbox-style-1"><a href="product-detail.html" title="Open Face Helmets"><img src="images/demo/demo_300x400.png" alt="demo"/></a><a href="images/demo/demo_300x400.png" title="Open Face Helmets" data-lightbox-href="product-detail.html" class="mv-btn mv-btn-style-20 mv-lightbox-item"><i class="icon fa fa-search"></i></a></div>
+                            </div>
+                            <div class="mv-dp-table-cell block-24-main">
+                              <div class="block-24-title"><a href="product-detail.html" title="Open Face Helmets" class="mv-overflow-ellipsis">Open Face Helmets</a></div>
+                              <div class="block-24-price">
+                                <div class="new-price">$200,00</div>
+                                <div class="old-price">$250,99</div>
+                              </div>
+                              <div data-rate="true" data-score="4.0" class="block-24-rate mv-rate text-left">
+                                <div class="rate-inner mv-f-12">
+                                  <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                                  <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <!-- .post-->
+
+                      <article class="item post">
+                        <div class="item-inner">
+                          <div class="mv-dp-table">
+                            <div class="mv-dp-table-cell block-24-thumb">
+                              <div class="thumb-inner mv-lightbox-style-1"><a href="product-detail.html" title="Spada Enforcer WP"><img src="images/demo/demo_300x400.png" alt="demo"/></a><a href="images/demo/demo_300x400.png" title="Spada Enforcer WP" data-lightbox-href="product-detail.html" class="mv-btn mv-btn-style-20 mv-lightbox-item"><i class="icon fa fa-search"></i></a></div>
+                            </div>
+                            <div class="mv-dp-table-cell block-24-main">
+                              <div class="block-24-title"><a href="product-detail.html" title="Spada Enforcer WP" class="mv-overflow-ellipsis">Spada Enforcer WP Spada Enforcer WP</a></div>
+                              <div class="block-24-price">
+                                <div class="new-price">$300,00</div>
+                                <div class="old-price">$400,99</div>
+                              </div>
+                              <div data-rate="true" data-score="5.0" class="block-24-rate mv-rate text-left">
+                                <div class="rate-inner mv-f-12">
+                                  <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                                  <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <!-- .post-->
+
+                      <article class="item post">
+                        <div class="item-inner">
+                          <div class="mv-dp-table">
+                            <div class="mv-dp-table-cell block-24-thumb">
+                              <div class="thumb-inner mv-lightbox-style-1"><a href="product-detail.html" title="Richa Drift Water"><img src="images/demo/demo_300x400.png" alt="demo"/></a><a href="images/demo/demo_300x400.png" title="Richa Drift Water" data-lightbox-href="product-detail.html" class="mv-btn mv-btn-style-20 mv-lightbox-item"><i class="icon fa fa-search"></i></a></div>
+                            </div>
+                            <div class="mv-dp-table-cell block-24-main">
+                              <div class="block-24-title"><a href="product-detail.html" title="Richa Drift Water" class="mv-overflow-ellipsis">Richa Drift Water</a></div>
+                              <div class="block-24-price">
+                                <div class="new-price">$210,00</div>
+                                <div class="old-price">$290,99</div>
+                              </div>
+                              <div data-rate="true" data-score="3.0" class="block-24-rate mv-rate text-left">
+                                <div class="rate-inner mv-f-12">
+                                  <div class="stars-wrapper empty-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                                  <div class="stars-wrapper filled-stars"><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span><span class="item-rate"></span></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <!-- .post-->
+                    </div>
+                  </div>
+                  <!-- .mv-block-style-24-->
+                </div>
+              </div>
+            </div>
+            <!-- .mv-aside-products-->
+
+            <div class="mv-aside mv-aside-tags">
+              <div class="aside-title mv-title-style-11">tags</div>
+              <div class="aside-body">
+                <div class="tag-list">
+                  <div class="mv-btn-group">
+                    <div class="group-inner"><a href="#" class="mv-btn mv-btn-style-22">Helmet</a><a href="#" class="mv-btn mv-btn-style-22 active">Gloves</a><a href="#" class="mv-btn mv-btn-style-22">Sercurity</a><a href="#" class="mv-btn mv-btn-style-22">Boots</a><a href="#" class="mv-btn mv-btn-style-22">Clothing</a><a href="#" class="mv-btn mv-btn-style-22">Luggage</a><a href="#" class="mv-btn mv-btn-style-22">Maintenance</a><a href="#" class="mv-btn mv-btn-style-22">Bodywork</a><a href="#" class="mv-btn mv-btn-style-22">Gift</a><a href="#" class="mv-btn mv-btn-style-22">Exhauts</a><a href="#" class="mv-btn mv-btn-style-22">Tyres</a><a href="#" class="mv-btn mv-btn-style-22">Casual Wear</a><a href="#" class="mv-btn mv-btn-style-22">R&G Racing</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- .mv-aside-tags-->
+          </div>
+        </div>
+      </div>
+      <!-- .off-canvas-wrapper-right-->
+    </div>
+    <!-- .mv-site-->
+
+    <div class="popup-wrapper">
+      <div id="popupSearch" tabindex="-1" role="dialog" aria-hidden="true" class="popup-search modal fade modal-effect-zoom mv-modal-style-2">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <form method="GET" action="/motor_vehikal_html/search.html" class="form-search">
+              <div class="mv-inputbox-icon right">
+                <input type="text" name="test138" data-mv-placeholder="Type here and enter to search" placeholder="Type here and enter to search" class="mv-inputbox mv-inputbox-style-5"/>
+                <button type="submit" class="icon mv-btn mv-btn-style-4"><i class="fa fa-search"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- .popup-search-->
+    </div>
+    <!-- .popup-wrapper-->
+
+    <!-- Vendor jQuery-->
+    <script type="text/javascript" src="libs/jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs/smoothscroll/SmoothScroll.min.js"></script>
+    <script type="text/javascript" src="libs/superfish-menu/js/superfish.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-ui/external/touch-punch/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-ui/external/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="libs/parallax/parallax.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-countto/jquery.countTo.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-appear/jquery.appear.min.js"></script>
+    <script type="text/javascript" src="libs/as-pie-progress/jquery-asPieProgress.min.js"></script>
+    <script type="text/javascript" src="libs/caroufredsel/helper-plugins/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="libs/caroufredsel/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script type="text/javascript" src="libs/isotope/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="libs/isotope/fit-columns.min.js"></script>
+    <script type="text/javascript" src="libs/slick-sider/slick.min.js"></script>
+    <script type="text/javascript" src="libs/lwt-countdown/jquery.lwtCountdown-1.0.min.js"></script>
+    <script type="text/javascript" src="libs/swiper-sider/dist/js/swiper.min.js"></script>
+    <script type="text/javascript" src="libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="libs/jplayer/dist/jplayer/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-cookie/jquery.cookie.min.js"></script>
+
+    <!-- Theme Script-->
+    <script type="text/javascript" src="js/style.selector.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
